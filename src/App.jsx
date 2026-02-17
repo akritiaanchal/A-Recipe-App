@@ -1,9 +1,9 @@
 import React, { useCallback, useState } from "react";
 import Navbar from "./components/Navbar";
-import RecipeDetailView from "./components/RecipeDetailView";
-import SearchView from "./components/SearchView";
+import RecipeDetailView from "./views/RecipeDetailView";
+import SearchView from "./views/SearchView";
 import CuisineBar from "./components/Cuisine";
-import HomeView from "./components/HomeView";
+import HomeView from "./views/HomeView";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
